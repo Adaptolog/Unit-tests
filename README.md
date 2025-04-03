@@ -13,7 +13,7 @@ git clone https://github.com/Adaptolog/Unit-tests.git
 ```
 2. Запустіть тести: 
 ```bash
-python -m unittest discover -s tests`
+python -m unittest discover -s tests
 ```
 3. Запустіть демо-скрипт:
 ```bash
