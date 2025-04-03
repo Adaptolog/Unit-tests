@@ -3,7 +3,7 @@ class CustomList:
         self._data = []
     
     def length(self) -> int:
-        return len(self._data)
+        return len(self._data)+1 # <-- щоб завжди повертало +1
     
     def append(self, element: str) -> None:
         if not isinstance(element, str) or len(element) != 1:
